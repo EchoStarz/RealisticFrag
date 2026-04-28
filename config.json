@@ -1,0 +1,841 @@
+{
+  "_comment": "RealisticFrag overrides — values ported from Fontaine Realism Mod 1.6.4 (SPT 3.11.4) and verified against SPT 4.0.13 items database. See BALLISTICS.md for methodology.",
+
+  "AmmoOverrides": {
+
+    // 5.56×45 NATO (11 rounds)
+    "59e6920f86f77411d82aa167": {
+      "Comment": "FMJ — patron_556x45_55_FMJ",
+      "FragmentationChance": 0.23,
+      "MinimumVelocity": 800
+    },
+    "59e6927d86f77411da468256": {
+      "Comment": "55 HP — patron_556x45_55_HP",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 750
+    },
+    "54527a984bdc2d4e668b4567": {
+      "Comment": "M855 — patron_556x45_M855",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 823
+    },
+    "54527ac44bdc2d36668b4567": {
+      "Comment": "M855A1 — patron_556x45_M855A1",
+      "FragmentationChance": 0.5,
+      "MinimumVelocity": 750
+    },
+    "59e68f6f86f7746c9f75e846": {
+      "Comment": "M856 — patron_556x45_M856",
+      "FragmentationChance": 0.18,
+      "MinimumVelocity": 800
+    },
+    "59e6906286f7746c9f75e847": {
+      "Comment": "M856A1 — patron_556x45_M856A1",
+      "FragmentationChance": 0.24,
+      "MinimumVelocity": 750
+    },
+    "59e690b686f7746c9f75e848": {
+      "Comment": "M995 — patron_556x45_M995",
+      "FragmentationChance": 0.11,
+      "MinimumVelocity": 880
+    },
+    "59e6918f86f7746c9f75e849": {
+      "Comment": "Mk 255 Mod 0 — patron_556x45_MK_255_Mod_0",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 700
+    },
+    "60194943740c5d77f6705eea": {
+      "Comment": "Mk 318 Mod 0 (SOST) — patron_556x45_mk_318_mod_0",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 770
+    },
+    "601949593ae8f707c4608daa": {
+      "Comment": "SSA AP — patron_556x45_ssa_ap",
+      "FragmentationChance": 0.12,
+      "MinimumVelocity": 800
+    },
+    "5c0d5ae286f7741e46554302": {
+      "Comment": "// Warmage — patron_556x45_varmageddon",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 700
+    },
+
+    // 5.45×39 (13 rounds)
+    "5c0d5e4486f77478390952fe": {
+      "Comment": "7N39 PPBS — patron_545x39_7n39",
+      "FragmentationChance": 0.19,
+      "MinimumVelocity": 880
+    },
+    "61962b617c6c7b169525f168": {
+      "Comment": "7N40 — patron_545x39_7n40",
+      "FragmentationChance": 0.44,
+      "MinimumVelocity": 830
+    },
+    "56dfef82d2720bbd668b4567": {
+      "Comment": "BP — patron_545x39_BP",
+      "FragmentationChance": 0.26,
+      "MinimumVelocity": 830
+    },
+    "56dff026d2720bb8668b4567": {
+      "Comment": "BS — patron_545x39_BS",
+      "FragmentationChance": 0.22,
+      "MinimumVelocity": 830
+    },
+    "56dff061d2720bb5668b4567": {
+      "Comment": "BT — patron_545x39_BT",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 830
+    },
+    "56dff0bed2720bb0668b4567": {
+      "Comment": "FMJ — patron_545x39_FMJ",
+      "FragmentationChance": 0.37,
+      "MinimumVelocity": 830
+    },
+    "56dff216d2720bbd668b4568": {
+      "Comment": "// HP — patron_545x39_HP",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 700
+    },
+    "56dff2ced2720bb4668b4567": {
+      "Comment": "PP — patron_545x39_PP",
+      "FragmentationChance": 0.28,
+      "MinimumVelocity": 800
+    },
+    "56dff338d2720bbd668b4569": {
+      "Comment": "PRS — patron_545x39_PRS",
+      "FragmentationChance": 0.33,
+      "MinimumVelocity": 700
+    },
+    "56dff3afd2720bba668b4567": {
+      "Comment": "PS — patron_545x39_PS",
+      "FragmentationChance": 0.34,
+      "MinimumVelocity": 800
+    },
+    "56dff421d2720b5f5a8b4567": {
+      "Comment": "SP — patron_545x39_SP",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 700
+    },
+    "56dff4a2d2720bbd668b456a": {
+      "Comment": "T — patron_545x39_T",
+      "FragmentationChance": 0.33,
+      "MinimumVelocity": 800
+    },
+    "56dff4ecd2720b5f5a8b4568": {
+      "Comment": "US — patron_545x39_US",
+      "FragmentationChance": 0.5,
+      "MinimumVelocity": 280
+    },
+
+    // 7.62×39 (9 rounds)
+    "59e0d99486f7744a32234762": {
+      "Comment": "BP — patron_762x39_BP",
+      "FragmentationChance": 0
+    },
+    "59e4d3d286f774176a36250a": {
+      "Comment": "HP — patron_762x39_HP",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 700
+    },
+    "5656d7c34bdc2d9d198b4587": {
+      "Comment": "PS — patron_762x39_PS",
+      "FragmentationChance": 0
+    },
+    "59e4cf5286f7741778269d8a": {
+      "Comment": "T45M — patron_762x39_T45M",
+      "FragmentationChance": 0
+    },
+    "59e4d24686f7741776641ac7": {
+      "Comment": "// US — patron_762x39_US",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 280
+    },
+    "64b7af5a8532cf95ee0a0dbd": {
+      "Comment": "FMJ — patron_762x39_fmj",
+      "FragmentationChance": 0
+    },
+    "601aa3d2b2bcb34913271e6d": {
+      "Comment": "MAI AP — patron_762x39_mai_ap",
+      "FragmentationChance": 0
+    },
+    "64b7af434b75259c590fa893": {
+      "Comment": "PP — patron_762x39_pp",
+      "FragmentationChance": 0
+    },
+    "64b7af734b75259c590fa895": {
+      "Comment": "SP — patron_762x39_sp",
+      "FragmentationChance": 0
+    },
+
+    // 7.62×51 (8 rounds)
+    "5a6086ea4f39f99cd479502f": {
+      "Comment": "M61 — patron_762x51_M61",
+      "FragmentationChance": 0
+    },
+    "5a608bf24f39f98ffc77720e": {
+      "Comment": "M62 — patron_762x51_M62",
+      "FragmentationChance": 0
+    },
+    "58dd3ad986f77403051cba8f": {
+      "Comment": "M80 — patron_762x51_M80",
+      "FragmentationChance": 0
+    },
+    "5e023e53d4353e3302577c4c": {
+      "Comment": "BPZ FMJ — patron_762x51_bpz_fmj",
+      "FragmentationChance": 0
+    },
+    "6768c25aa7b238f14a08d3f6": {
+      "Comment": "M80A1 — patron_762x51_m80a1",
+      "FragmentationChance": 0
+    },
+    "5efb0c1bd79ff02a1f5e68d9": {
+      "Comment": "M993 — patron_762x51_m993",
+      "FragmentationChance": 0
+    },
+    "5e023e6e34d52a55c3304f71": {
+      "Comment": "TPZ SP — patron_762x51_tpz_sp",
+      "FragmentationChance": 0
+    },
+    "5e023e88277cce2b522ff2b1": {
+      "Comment": "// Ultra Nosler — patron_762x51_ultra_nosler",
+      "FragmentationChance": 0
+    },
+
+    // 7.62×54R (9 rounds)
+    "59e77a2386f7742ee578960a": {
+      "Comment": "PS 7N1 — patron_762x54R_7N1",
+      "FragmentationChance": 0
+    },
+    "5887431f2459777e1612938f": {
+      "Comment": "LPS Gzh — patron_762x54R_LPS_Gzh",
+      "FragmentationChance": 0
+    },
+    "560d61e84bdc2da74d8b4571": {
+      "Comment": "SNB — patron_762x54R_SNB",
+      "FragmentationChance": 0
+    },
+    "5e023d34e8a400319a28ed44": {
+      "Comment": "7BT1 BT — patron_762x54r_7bt1",
+      "FragmentationChance": 0
+    },
+    "5e023d48186a883be655e551": {
+      "Comment": "7N37/BS — patron_762x54r_7n37",
+      "FragmentationChance": 0
+    },
+    "64b8f7c241772715af0f9c3d": {
+      "Comment": "// BT HP — patron_762x54r_bthp",
+      "FragmentationChance": 0
+    },
+    "64b8f7968532cf95ee0a0dbf": {
+      "Comment": "FMJ — patron_762x54r_fmj",
+      "FragmentationChance": 0
+    },
+    "64b8f7b5389d7ffd620ccba2": {
+      "Comment": "BT SP — patron_762x54r_spbt",
+      "FragmentationChance": 0
+    },
+    "5e023cf8186a883be655e54f": {
+      "Comment": "T-46M — patron_762x54r_t46m",
+      "FragmentationChance": 0
+    },
+
+    // 9×19 PARA (9 rounds)
+    "5efb0da7a29a85116f6ea05f": {
+      "Comment": "7N31 — patron_9x19_7n31",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 380
+    },
+    "5c3df7d588a4501f290594e5": {
+      "Comment": "Green Tracer — patron_9x19_GT",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 340
+    },
+    "58864a4f2459770fcc257101": {
+      "Comment": "PSO gzh — patron_9x19_PSO_gzh",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 320
+    },
+    "56d59d3ad2720bdb418b4577": {
+      "Comment": "Pst gzh — patron_9x19_PST_gzh",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 350
+    },
+    "5c925fa22e221601da359b7b": {
+      "Comment": "AP 6.3 — patron_9x19_ap_63",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 380
+    },
+    "5a3c16fe86f77452b62de32a": {
+      "Comment": "Luger CCI — patron_9x19_luger_cci",
+      "FragmentationChance": 0.35,
+      "MinimumVelocity": 360
+    },
+    "64b7bbb74b75259c590fa897": {
+      "Comment": "M882 — patron_9x19_m882",
+      "FragmentationChance": 0.08,
+      "MinimumVelocity": 340
+    },
+    "5efb0e16aeb21837e749c7ff": {
+      "Comment": "QuakeMaker — patron_9x19_quakemaker",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 300
+    },
+    "5c0d56a986f774449d5de529": {
+      "Comment": "//RIP — patron_9x19_rip",
+      "FragmentationChance": 0.35,
+      "MinimumVelocity": 354
+    },
+
+    // 9×18 PM (14 rounds)
+    "573718ba2459775a75491131": {
+      "Comment": "PM 9 BZT gzh — patron_9x18pm_BZT_gzh",
+      "FragmentationChance": 0.33,
+      "MinimumVelocity": 309
+    },
+    "573719df2459775a626ccbc2": {
+      "Comment": "PM PBM — patron_9x18pm_PBM",
+      "FragmentationChance": 0.38,
+      "MinimumVelocity": 442
+    },
+    "57371aab2459775a77142f22": {
+      "Comment": "PM PMM 7n16 — patron_9x18pm_PMM",
+      "FragmentationChance": 0.31,
+      "MinimumVelocity": 386
+    },
+    "57371b192459775a9f58a5e0": {
+      "Comment": "PM PPe gzh — patron_9x18pm_PPE_gzh",
+      "FragmentationChance": 0.35,
+      "MinimumVelocity": 282
+    },
+    "57371e4124597760ff7b25f1": {
+      "Comment": "PM PPT gzh — patron_9x18pm_PPT_gzh",
+      "FragmentationChance": 0.42,
+      "MinimumVelocity": 286
+    },
+    "57371eb62459776125652ac1": {
+      "Comment": "PM PRS gs — patron_9x18pm_PRS_gs",
+      "FragmentationChance": 0.5,
+      "MinimumVelocity": 286
+    },
+    "57371f8d24597761006c6a81": {
+      "Comment": "PM PSO gzh — patron_9x18pm_PSO_gzh",
+      "FragmentationChance": 0.24,
+      "MinimumVelocity": 299
+    },
+    "5737201124597760fc4431f1": {
+      "Comment": "PM Pst gzh — patron_9x18pm_PST_gzh",
+      "FragmentationChance": 0.31,
+      "MinimumVelocity": 283
+    },
+    "5737207f24597760ff7b25f2": {
+      "Comment": "PM PSV — patron_9x18pm_PSV",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 266
+    },
+    "57371f2b24597761224311f1": {
+      "Comment": "PM PS gs PPO — patron_9x18pm_PS_gs_PPO",
+      "FragmentationChance": 0.35,
+      "MinimumVelocity": 314
+    },
+    "573719762459775a626ccbc1": {
+      "Comment": "PM P gzh — patron_9x18pm_P_gzh",
+      "FragmentationChance": 0.23,
+      "MinimumVelocity": 287
+    },
+    "573720e02459776143012541": {
+      "Comment": "PM RG028 gzh — patron_9x18pm_RG028_gzh",
+      "FragmentationChance": 0.42,
+      "MinimumVelocity": 309
+    },
+    "57372140245977611f70ee91": {
+      "Comment": "PM SP7 gzh — patron_9x18pm_SP7_gzh",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 386
+    },
+    "5737218f245977612125ba51": {
+      "Comment": "//PM SP8 gzh — patron_9x18pm_SP8_gzh",
+      "FragmentationChance": 0.6,
+      "MinimumVelocity": 238
+    },
+
+    // 9×39 (6 rounds)
+    "5c0d688c86f77413ae3407b2": {
+      "Comment": "7N12 BP — patron_9x39_bp",
+      "FragmentationChance": 0.2,
+      "MinimumVelocity": 280
+    },
+    "6576f96220d53a5b8f3e395e": {
+      "Comment": "//FMJ — patron_9x39_fmj",
+      "FragmentationChance": 0.45,
+      "MinimumVelocity": 314
+    },
+    "61962d879bb3d20b0946d385": {
+      "Comment": "PAB-9 — patron_9x39_pab9",
+      "FragmentationChance": 0.2,
+      "MinimumVelocity": 294
+    },
+    "57a0dfb82459774d3078b56c": {
+      "Comment": "SP5 — patron_9x39_sp5",
+      "FragmentationChance": 0.35,
+      "MinimumVelocity": 293
+    },
+    "57a0e5022459774d1673f889": {
+      "Comment": "SP6 — patron_9x39_sp6",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 280
+    },
+    "5c0d668f86f7747ccb7f13b2": {
+      "Comment": "7N9 SPP — patron_9x39_spp",
+      "FragmentationChance": 0.27,
+      "MinimumVelocity": 280
+    },
+
+    // 9×21 (6 rounds)
+    "6576f4708ca9c4381d16cd9d": {
+      "Comment": "7N24 — patron_9x21_7n42",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 368
+    },
+    "6576f93989f0062e741ba952": {
+      "Comment": "7U4 — patron_9x21_7u4",
+      "FragmentationChance": 0.4,
+      "MinimumVelocity": 285
+    },
+    "5a269f97c4a282000b151807": {
+      "Comment": "SP10 PS — patron_9x21_sp10",
+      "FragmentationChance": 0.13,
+      "MinimumVelocity": 386
+    },
+    "5a26abfac4a28232980eabff": {
+      "Comment": "SP11 P — patron_9x21_sp11",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 368
+    },
+    "5a26ac06c4a282000c5a90a8": {
+      "Comment": "//SP12 PE — patron_9x21_sp12",
+      "FragmentationChance": 0.25,
+      "MinimumVelocity": 382
+    },
+    "5a26ac0ec4a28200741e1e18": {
+      "Comment": "SP13 BT — patron_9x21_sp13",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 368
+    },
+
+    // 7.62×25 TT (7 rounds)
+    "5735ff5c245977640e39ba7e": {
+      "Comment": "FMJ43 — patron_762x25tt_FMJ43",
+      "FragmentationChance": 0.2,
+      "MinimumVelocity": 393
+    },
+    "573601b42459776410737435": {
+      "Comment": "LRN — patron_762x25tt_LRN",
+      "FragmentationChance": 0.25,
+      "MinimumVelocity": 354
+    },
+    "573602322459776445391df1": {
+      "Comment": "//LRNPC — patron_762x25tt_LRNPC",
+      "FragmentationChance": 0.21,
+      "MinimumVelocity": 345
+    },
+    "5736026a245977644601dc61": {
+      "Comment": "P gl — patron_762x25tt_P_Gl",
+      "FragmentationChance": 0.19,
+      "MinimumVelocity": 396
+    },
+    "573603562459776430731618": {
+      "Comment": "Pst gzh — patron_762x25tt_Pst_gzh",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 396
+    },
+    "573603c924597764442bd9cb": {
+      "Comment": "PT gl — patron_762x25tt_T_Gzh",
+      "FragmentationChance": 0.17,
+      "MinimumVelocity": 382
+    },
+    "5735fdcd2459776445391d61": {
+      "Comment": "AKBS — patron_762x25tt_akbs",
+      "FragmentationChance": 0.23,
+      "MinimumVelocity": 391
+    },
+
+    // .300 BLK (7.62×35) (6 rounds)
+    "5fbe3ffdf8b6a877a729ea82": {
+      "Comment": "BCP FMJ — patron_762x35_blackout",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 720
+    },
+    "5fd20ff893a8961fc660a954": {
+      "Comment": "AAC AP — patron_762x35_blackout_ap",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 280
+    },
+    "64b8725c4b75259c590fa899": {
+      "Comment": "CBJ — patron_762x35_cbj",
+      "FragmentationChance": 0.06,
+      "MinimumVelocity": 616
+    },
+    "619636be6db0f2477964e710": {
+      "Comment": "M62 .300blk — patron_762x35_m62",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 512
+    },
+    "6196364158ef8c428c287d9f": {
+      "Comment": "V-Max — patron_762x35_vmax",
+      "FragmentationChance": 0
+    },
+    "6196365d58ef8c428c287da1": {
+      "Comment": "// Whisper — patron_762x35_whisper",
+      "FragmentationChance": 0.35,
+      "MinimumVelocity": 670
+    },
+
+    // .45 ACP (11.43×23) (5 rounds)
+    "5e81f423763d9f754677bf2e": {
+      "Comment": "FMJ — patron_1143x23_acp",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 276
+    },
+    "5efb0cabfb3e451d70735af5": {
+      "Comment": ".45 AP 6.3 — patron_1143x23_acp_ap",
+      "FragmentationChance": 0.2,
+      "MinimumVelocity": 336
+    },
+    "5efb0fc6aeb21837e749c801": {
+      "Comment": "Hydra-Shok — patron_1143x23_acp_hydra_shok",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 260
+    },
+    "5efb0d4f4bc50b58e81710f3": {
+      "Comment": "Lasermatch FMJ — patron_1143x23_acp_lasermatch_fmj",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 241
+    },
+    "5ea2a8e200685063ec28c05a": {
+      "Comment": "//RIP — patron_1143x23_rip",
+      "FragmentationChance": 0.4,
+      "MinimumVelocity": 277
+    },
+
+    // 5.7×28 (7 rounds)
+    "5cc80f53e4a949000e1ea4f8": {
+      "Comment": "L191 — patron_57x28_l191",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 659
+    },
+    "5cc86832d7f00c000d3a6e6c": {
+      "Comment": "R37.F — patron_57x28_r37f",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 620
+    },
+    "5cc86840d7f00c002412c56c": {
+      "Comment": "R37.X — patron_57x28_r37x",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 615
+    },
+    "5cc80f67e4a949035e43bbba": {
+      "Comment": "SB193 — patron_57x28_sb193",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 290
+    },
+    "5cc80f38e4a949001152b560": {
+      "Comment": "SS190 — patron_57x28_ss190",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 659
+    },
+    "5cc80f8fe4a949033b0224a2": {
+      "Comment": "SS197SR — patron_57x28_ss197sr",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 546
+    },
+    "5cc80f79e4a949033c7343b2": {
+      "Comment": "//SS198LF — patron_57x28_ss198lf",
+      "FragmentationChance": 0.2,
+      "MinimumVelocity": 729
+    },
+
+    // 4.6×30 (5 rounds)
+    "5ba26812d4351e003201fef1": {
+      "Comment": "//Action SX — patron_46x30_action_sx",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 635
+    },
+    "5ba26835d4351e0035628ff5": {
+      "Comment": "AP SX — patron_46x30_ap_sx",
+      "FragmentationChance": 0
+    },
+    "5ba2678ad4351e44f824b344": {
+      "Comment": "FMJ SX — patron_46x30_fmj_sx",
+      "FragmentationChance": 0
+    },
+    "64b6979341772715af0f9c39": {
+      "Comment": "JSP — patron_46x30_jsp",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 533
+    },
+    "5ba26844d4351e00334c9475": {
+      "Comment": "Subsonic SX — patron_46x30_subsonic_sx",
+      "FragmentationChance": 0
+    },
+
+    // .366 TKM (4 rounds)
+    "59e655cb86f77411dc52a77b": {
+      "Comment": "EKO — patron_366_TKM_EKO",
+      "FragmentationChance": 0
+    },
+    "59e6542b86f77411dc52a77a": {
+      "Comment": "FMJ — patron_366_TKM_FMJ",
+      "FragmentationChance": 0
+    },
+    "59e6658b86f77411d949b250": {
+      "Comment": "// Geksa — patron_366_TKM_Geksa",
+      "FragmentationChance": 0
+    },
+    "5f0596629e22f464da6bbdd9": {
+      "Comment": "AP-M — patron_366_custom_ap",
+      "FragmentationChance": 0
+    },
+
+    // .357 Magnum (9×33R) (4 rounds)
+    "62330b3ed4dc74626d570b95": {
+      "Comment": "FMJ — patron_9x33r_fmj",
+      "FragmentationChance": 0.08
+    },
+    "62330bfadc5883093563729b": {
+      "Comment": "//HP — patron_9x33r_hp",
+      "FragmentationChance": 0.1
+    },
+    "62330c18744e5e31df12f516": {
+      "Comment": "JHP — patron_9x33r_jhp",
+      "FragmentationChance": 0.35
+    },
+    "62330c40bdd19b369e1e53d1": {
+      "Comment": "SP — patron_9x33r_sp",
+      "FragmentationChance": 0.12
+    },
+
+    // 12 gauge (17 rounds)
+    "560d5e524bdc2d25448b4571": {
+      "Comment": "7mm Buckshot — patron_12x70_buckshot",
+      "FragmentationChance": 0.22,
+      "MinimumVelocity": 382
+    },
+    "5d6e6772a4b936088465b17c": {
+      "Comment": "5.25mm Buckshot — patron_12x70_buckshot_525",
+      "FragmentationChance": 0.25,
+      "MinimumVelocity": 314
+    },
+    "5d6e67fba4b9361bc73bc779": {
+      "Comment": "6.5mm Buckshot \"Express\" — patron_12x70_buckshot_65",
+      "FragmentationChance": 0
+    },
+    "5d6e6806a4b936088465b17e": {
+      "Comment": "8.5mm Buckshot \"Magnum\" — patron_12x70_buckshot_85",
+      "FragmentationChance": 0
+    },
+    "5d6e68dea4b9361bcc29e659": {
+      "Comment": "Dual Sabot — patron_12x70_dual_sabot_slug",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 299
+    },
+    "5d6e6911a4b9361bd5780d52": {
+      "Comment": "Flechette — patron_12x70_flechette",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 285
+    },
+    "64b8ee384b75259c590fa89b": {
+      "Comment": "//Piranha — patron_12x70_piranha",
+      "FragmentationChance": 0.5,
+      "MinimumVelocity": 271
+    },
+    "5c0d591486f7744c505b416f": {
+      "Comment": "RIP (HP copper) — patron_12x70_rip",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 313
+    },
+    "58820d1224597753c90aeb13": {
+      "Comment": "Lead slug — patron_12x70_slug",
+      "FragmentationChance": 0
+    },
+    "5d6e68c4a4b9361b93413f79": {
+      "Comment": ".50 BMG — patron_12x70_slug_50_bmg_m17_traccer",
+      "FragmentationChance": 0.3,
+      "MinimumVelocity": 295
+    },
+    "5d6e68a8a4b9360b6c0d54e2": {
+      "Comment": "AP-20 — patron_12x70_slug_ap_20",
+      "FragmentationChance": 0
+    },
+    "5d6e68e6a4b9361c140bcfe0": {
+      "Comment": "FTX custom light — patron_12x70_slug_ftx_custom_lite",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 346
+    },
+    "5d6e6869a4b9361c140bcfde": {
+      "Comment": "Grizzly (HP) — patron_12x70_slug_grizzly_40",
+      "FragmentationChance": 0
+    },
+    "5d6e68b3a4b9361bca7e50b5": {
+      "Comment": "Copper Sabot (HP) — patron_12x70_slug_hp_copper",
+      "FragmentationChance": 0
+    },
+    "5d6e6891a4b9361bd473feea": {
+      "Comment": "Poleva-3 (HP) — patron_12x70_slug_poleva_3",
+      "FragmentationChance": 0
+    },
+    "5d6e689ca4b9361bc8618956": {
+      "Comment": "Poleva-6u (FMJ) — patron_12x70_slug_poleva_6u",
+      "FragmentationChance": 0
+    },
+    "5d6e68d1a4b93622fe60e845": {
+      "Comment": "SuperPerformance (HP) — patron_12x70_slug_superformance",
+      "FragmentationChance": 0
+    },
+
+    // 20 gauge (11 rounds)
+    "5a38ebd9c4a282000d722a5b": {
+      "Comment": "7.5mm buckshot — patron_20x70_buckshot",
+      "FragmentationChance": 0.17,
+      "MinimumVelocity": 396
+    },
+    "5d6e695fa4b936359b35d852": {
+      "Comment": "5.6mm shot — patron_20x70_buckshot_56",
+      "FragmentationChance": 0.12,
+      "MinimumVelocity": 313
+    },
+    "5d6e69b9a4b9361bc8618958": {
+      "Comment": "6.2mm buckshot — patron_20x70_buckshot_62",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 377
+    },
+    "5d6e69c7a4b9360b6c0d54e4": {
+      "Comment": "7.3mm buckshot — patron_20x70_buckshot_73",
+      "FragmentationChance": 0.2,
+      "MinimumVelocity": 437
+    },
+    "6601380580e77cfd080e3418": {
+      "Comment": "//Flechette shot — patron_20x70_flechette",
+      "FragmentationChance": 0.12,
+      "MinimumVelocity": 285
+    },
+    "660137d8481cc6907a0c5cda": {
+      "Comment": "AP slug — patron_20x70_slug_ap",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 347
+    },
+    "5d6e6a5fa4b93614ec501745": {
+      "Comment": "Devestator HP slug — patron_20x70_slug_broadhead",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 292
+    },
+    "660137ef76c1b56143052be8": {
+      "Comment": "Dangerous game — patron_20x70_slug_dg",
+      "FragmentationChance": 0.25,
+      "MinimumVelocity": 343
+    },
+    "5d6e6a53a4b9361bd473feec": {
+      "Comment": "Poleva 3 HP slug — patron_20x70_slug_poleva_3",
+      "FragmentationChance": 0
+    },
+    "5d6e6a42a4b9364f07165f52": {
+      "Comment": "Poleva 6u FMJ slug — patron_20x70_slug_poleva_6u",
+      "FragmentationChance": 0
+    },
+    "5d6e6a05a4b93618084f58d0": {
+      "Comment": "Star slug — patron_20x70_slug_star",
+      "FragmentationChance": 0.6,
+      "MinimumVelocity": 299
+    },
+
+    // 23×75 mm shotgun (3 rounds)
+    "5e85aa1a988a8701445df1f5": {
+      "Comment": "Barrikada — patron_23x75_barricade",
+      "FragmentationChance": 0
+    },
+    "5e85a9a6eacf8c039e4e2ac1": {
+      "Comment": "//Shrap 10 — patron_23x75_shrapnel_10",
+      "FragmentationChance": 0.05,
+      "MinimumVelocity": 256
+    },
+    "5f647f31b6238e5dd066e196": {
+      "Comment": "Shrap 25 — patron_23x75_shrapnel_25",
+      "FragmentationChance": 0
+    },
+
+    // .338 Lapua (8.6×70) (4 rounds)
+    "5fc382a9d724d907e2077dab": {
+      "Comment": "AP — patron_86x70_lapua_ap",
+      "FragmentationChance": 0
+    },
+    "5fc275cf85fd526b824a571a": {
+      "Comment": "FMJ — patron_86x70_lapua_magnum",
+      "FragmentationChance": 0
+    },
+    "5fc382c1016cce60e8341b20": {
+      "Comment": "// UCW — patron_86x70_lapua_magnum_upz",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 619
+    },
+    "5fc382b6d6fa9c00c571bbc3": {
+      "Comment": "Tac-X — patron_86x70_lapua_tac_x",
+      "FragmentationChance": 0
+    },
+
+    // 12.7×33 (.50 Beowulf) (4 rounds)
+    "66a0d1e0ed648d72fe064d06": {
+      "Comment": "Copper — patron_127x33_cooper",
+      "FragmentationChance": 0.05
+    },
+    "668fe62ac62660a5d8071446": {
+      "Comment": "FMJ — patron_127x33_fmj",
+      "FragmentationChance": 0.25
+    },
+    "66a0d1c87d0d369e270bb9de": {
+      "Comment": "//JHP — patron_127x33_jhp",
+      "FragmentationChance": 0
+    },
+    "66a0d1f88486c69fce00fdf6": {
+      "Comment": "JSP — patron_127x33_jsp",
+      "FragmentationChance": 0.1
+    },
+
+    // 12.7×55 STs-130 (3 rounds)
+    "5cadf6ddae9215051e1c23b2": {
+      "Comment": "PS12 — patron_127x55_ps12",
+      "FragmentationChance": 0.04,
+      "MinimumVelocity": 285
+    },
+    "5cadf6e5ae921500113bb973": {
+      "Comment": "// PS12A — patron_127x55_ps12a",
+      "FragmentationChance": 0.06,
+      "MinimumVelocity": 626
+    },
+    "5cadf6eeae921500134b2799": {
+      "Comment": "PS12B — patron_127x55_ps12b",
+      "FragmentationChance": 0.01,
+      "MinimumVelocity": 410
+    },
+
+    // 12.7×108 (2 rounds)
+    "5cde8864d7f00c0010373be1": {
+      "Comment": "//FMJ — patron_127x108",
+      "FragmentationChance": 0
+    },
+    "5d2f2ab648f03550091993ca": {
+      "Comment": "Tracer — patron_127x108_bzt",
+      "FragmentationChance": 0
+    },
+
+    // 6.8×51 SIG (2 rounds)
+    "6529243824cbe3c74a05e5c1": {
+      "Comment": "Hybrid — patron_68x51",
+      "FragmentationChance": 0.1,
+      "MinimumVelocity": 636
+    },
+    "6529302b8c26af6326029fb7": {
+      "Comment": "// FMJ — patron_68x51_fmj",
+      "FragmentationChance": 0.15,
+      "MinimumVelocity": 673
+    }
+  }
+}

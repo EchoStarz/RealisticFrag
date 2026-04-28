@@ -1,0 +1,11 @@
+bin/
+obj/
+*.user
+.vs/
+.idea/
+*.suo
+.DS_Store
+dist/
+
+# Internal development notes (cheat sheets, reverse-engineering scratch, etc.)
+dev-notes/
